@@ -1,3 +1,28 @@
 .green-text {
     color: green;
+    text-shadow: 5px 5px 10px black
+}
+
+.red-text {
+    color: red;
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.orange-text {
+    color: orange;
+}
+
+.purple-text {
+    color: purple;
+}
+
+.pink-text {
+    color: pink;
 }

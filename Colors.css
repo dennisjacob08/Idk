@@ -27,6 +27,47 @@
 }
 
 .shadow {
-    text-shadow: 5px 5px 10px black;
+    text-shadow: 3px 3px 3px black;
 }
 
+.box-shadow {
+    box-shadow: 0px 5px 10px black;
+}
+
+div#second-page {
+    background-color: red;
+    height: 150px;
+    width: 50%;
+    border: 5px;
+    border-color: black;
+    text-align: center;
+    margin-top: 0px;
+    float: bottom;
+}
+
+div#shrek {
+    width: 50%;
+    background-color: white;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-left: 25%;
+}
+
+#shrek-image {
+    float: bottom;
+    margin-bottom: 10px;
+}
+
+#shrek-text {
+    font-family: "TImes New Roman";
+}
+
+#shrek-box {
+    background-color: white;
+    border: black;
+    width: 25%;
+    margin-left: 37.5%;
+    border: 3px;
+    border-style: solid;
+}

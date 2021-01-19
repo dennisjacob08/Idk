@@ -57,6 +57,7 @@ div#shrek {
 #shrek-image {
     float: bottom;
     margin-bottom: 10px;
+    transform: skewX(32deg);
 }
 
 #shrek-text {

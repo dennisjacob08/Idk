@@ -1,4 +1,4 @@
-.green-text {
+ .green-text {
     color: green;
 }
 
@@ -58,6 +58,11 @@ div#shrek {
     float: bottom;
     margin-bottom: 10px;
     transform: skewX(32deg);
+    transform: skewY(20deg);
+    animation-name: shrek;
+    animation-duration: 0.5s;
+    position: relative;
+    animation-iteration-count: infinite;
 }
 
 #shrek-text {
@@ -71,4 +76,19 @@ div#shrek {
     margin-left: 37.5%;
     border: 3px;
     border-style: solid;
+}
+
+@keyframes shrek {
+    0% {
+        left: 0px;
+    }
+
+    50% {
+        left: 25px;
+    }
+
+    100% {
+        left: 0px;
+        right: 25px;
+    }
 }

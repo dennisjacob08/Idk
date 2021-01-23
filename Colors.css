@@ -26,69 +26,37 @@
     color: pink;
 }
 
-.shadow {
-    text-shadow: 3px 3px 3px black;
+body {
+    background-image: url(minimal.jpg);
+    height: 100%;
+    margin: 0 0 0 0;
+}   
+
+h1 {
+    font-size: 60px;
 }
 
-.box-shadow {
-    box-shadow: 0px 5px 10px black;
-}
-
-div#second-page {
-    background-color: red;
-    height: 150px;
-    width: 50%;
-    border: 5px;
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a4ff70;
+    width: 1000px;
+    height: 400px;
+    border-width: 15px;
     border-color: black;
-    text-align: center;
-    margin-top: 0px;
-    float: bottom;
-}
-
-div#shrek {
-    width: 50%;
-    background-color: white;
-    height: 200px;
-    text-align: center;
-    margin-bottom: 0px;
-    margin-left: 25%;
-}
-
-#shrek-image {
-    float: bottom;
-    margin-bottom: 10px;
-    transform: skewX(32deg);
-    transform: skewY(20deg);
-    animation-name: shrek;
-    animation-duration: 0.5s;
-    position: relative;
-    animation-iteration-count: infinite;
-}
-
-#shrek-text {
-    font-family: "TImes New Roman";
-}
-
-#shrek-box {
-    background-color: white;
-    border: black;
-    width: 25%;
-    margin-left: 37.5%;
-    border: 3px;
     border-style: solid;
+    border-radius: 20px;
 }
 
-@keyframes shrek {
-    0% {
-        left: 0px;
-    }
+#content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    50% {
-        left: 25px;
-    }
-
-    100% {
-        left: 0px;
-        right: 25px;
-    }
+html {
+    height: 100%;
 }
